@@ -18,3 +18,13 @@ int func2(int y)
 	
 	return y;
 }
+
+int func3(int x)
+{
+	if(x != 0)
+		x = x + 4;
+	else
+		x = x;
+
+	return x;
+}
